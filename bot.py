@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # Replace with your actual Telegram bot token
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
+BOT_TOKEN = 7654155010:AAEqvqFmAZu_oHwq9zXiScZfGpBL8dfxsio
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Hello! 👋 I'm alive and working perfectly!")
@@ -20,4 +20,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
